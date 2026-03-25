@@ -1,0 +1,157 @@
+[01-Jul-2025 19:47:38 UTC] PHP Warning:  Undefined variable $pdo in /home/frozofun/admin/entities/inventory/stock_requirements.php on line 21
+[01-Jul-2025 19:47:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/frozofun/admin/entities/inventory/stock_requirements.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/frozofun/admin/entities/inventory/stock_requirements.php on line 21
+[01-Jul-2025 19:48:05 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/stock_requirements.php on line 6
+[02-Jul-2025 00:56:34 Asia/Karachi] PHP Warning:  Undefined variable $req_items in /home/frozofun/admin/entities/inventory/stock_requirements.php on line 70
+[02-Jul-2025 00:56:34 Asia/Karachi] PHP Warning:  foreach() argument must be of type array|object, null given in /home/frozofun/admin/entities/inventory/stock_requirements.php on line 70
+[08-Jul-2025 20:57:41 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'INSERT INTO' in /home/frozofun/admin/entities/inventory/actions.php:52
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(52): PDO->prepare()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 52
+[08-Jul-2025 21:01:49 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'INSERT INTO' in /home/frozofun/admin/entities/inventory/actions.php:58
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(58): PDO->prepare()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 58
+[08-Jul-2025 21:04:18 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'INSERT INTO' in /home/frozofun/admin/entities/inventory/actions.php:58
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(58): PDO->prepare()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 58
+[08-Jul-2025 21:07:08 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'INSERT INTO' in /home/frozofun/admin/entities/inventory/actions.php:58
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(58): PDO->prepare()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 58
+[08-Jul-2025 21:09:11 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'INSERT INTO' in /home/frozofun/admin/entities/inventory/actions.php:58
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(58): PDO->prepare()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 58
+[08-Jul-2025 22:04:33 Asia/Karachi] PHP Fatal error:  Uncaught Error: Class "Picqer\Barcode\BarcodeGenerator" not found in /home/frozofun/admin/barcode/codegen/src/BarcodeGeneratorPNG.php:10
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/packing_labels.php(6): require_once()
+#1 {main}
+  thrown in /home/frozofun/admin/barcode/codegen/src/BarcodeGeneratorPNG.php on line 10
+[08-Jul-2025 23:04:26 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12C82CU0750' for key 'barcode' in /home/frozofun/admin/entities/inventory/actions.php:86
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 86
+[12-Jul-2025 19:30:45 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12C91BR1000' for key 'barcode' in /home/frozofun/admin/entities/inventory/actions.php:86
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 86
+[12-Jul-2025 19:37:00 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '08C49SK0800' for key 'barcode' in /home/frozofun/admin/entities/inventory/actions.php:86
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 86
+[12-Jul-2025 19:37:02 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '08C49SK0800' for key 'barcode' in /home/frozofun/admin/entities/inventory/actions.php:86
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 86
+[12-Jul-2025 19:37:03 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '08C49SK0800' for key 'barcode' in /home/frozofun/admin/entities/inventory/actions.php:86
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 86
+[12-Jul-2025 19:37:05 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '08C49SK0800' for key 'barcode' in /home/frozofun/admin/entities/inventory/actions.php:86
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 86
+[12-Jul-2025 19:54:09 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12C91BR1000' for key 'barcode' in /home/frozofun/admin/entities/inventory/actions.php:86
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/actions.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/actions.php on line 86
+[27-Jul-2025 18:16:41 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[27-Jul-2025 18:25:59 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[27-Jul-2025 18:26:29 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[27-Jul-2025 18:41:57 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[27-Jul-2025 18:45:42 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[25-Aug-2025 17:43:47 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[30-Aug-2025 02:33:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[01-Sep-2025 02:52:41 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[02-Sep-2025 05:52:47 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[04-Sep-2025 12:16:14 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[06-Sep-2025 10:17:40 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[08-Sep-2025 10:35:35 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[22-Sep-2025 23:24:42 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[22-Sep-2025 23:40:10 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[22-Sep-2025 23:41:14 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[22-Sep-2025 23:42:48 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[23-Sep-2025 16:00:54 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[23-Sep-2025 16:07:38 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[31-Oct-2025 06:37:43 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[31-Oct-2025 06:52:58 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[31-Oct-2025 07:17:39 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[31-Oct-2025 07:19:19 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[31-Oct-2025 08:08:01 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[31-Oct-2025 08:08:35 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[31-Oct-2025 08:09:23 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[14-Dec-2025 20:04:57 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[14-Dec-2025 20:06:29 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[15-Dec-2025 07:38:49 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[15-Dec-2025 07:40:28 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[20-Jan-2026 10:35:25 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[05-Feb-2026 16:36:57 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[09-Feb-2026 05:28:01 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[11-Feb-2026 22:47:46 Asia/Karachi] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/frozofun/admin/entities/inventory/packing.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/frozofun/admin/entities/inventory/packing.php on line 84
+[11-Feb-2026 22:53:47 Asia/Karachi] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/frozofun/admin/entities/inventory/packing.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/frozofun/admin/entities/inventory/packing.php on line 84
+[11-Feb-2026 22:55:12 Asia/Karachi] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/frozofun/admin/entities/inventory/packing.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/frozofun/admin/entities/inventory/packing.php on line 84
+[11-Feb-2026 22:55:27 Asia/Karachi] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/frozofun/admin/entities/inventory/packing.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/frozofun/admin/entities/inventory/packing.php on line 84
+[11-Feb-2026 22:55:41 Asia/Karachi] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/frozofun/admin/entities/inventory/packing.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/frozofun/admin/entities/inventory/packing.php on line 84
+[11-Feb-2026 17:57:18 UTC] PHP Parse error:  syntax error, unexpected token "endforeach" in /home/frozofun/admin/entities/inventory/packing.php on line 121
+[11-Feb-2026 22:58:04 Asia/Karachi] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/frozofun/admin/entities/inventory/packing.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/frozofun/admin/entities/inventory/packing.php on line 84
+[12-Feb-2026 11:03:28 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
+[13-Feb-2026 23:53:41 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:54:02 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:55:44 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:55:45 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:55:58 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:55:58 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:57:58 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:57:58 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:57:59 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:58:03 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:58:03 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:58:37 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:58:37 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:58:39 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[13-Feb-2026 23:58:39 Asia/Karachi] PHP Fatal error:  Cannot redeclare format_pack_val() (previously declared in /home/frozofun/admin/entities/inventory/packing.php:108) in /home/frozofun/admin/entities/inventory/packing.php on line 29
+[14-Feb-2026 00:11:07 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'so.customer_name' in 'SELECT' in /home/frozofun/admin/entities/inventory/allinvent.php:6
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/allinvent.php(6): PDO->query()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/allinvent.php on line 6
+[14-Feb-2026 00:11:19 Asia/Karachi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'so.customer_name' in 'SELECT' in /home/frozofun/admin/entities/inventory/allinvent.php:6
+Stack trace:
+#0 /home/frozofun/admin/entities/inventory/allinvent.php(6): PDO->query()
+#1 {main}
+  thrown in /home/frozofun/admin/entities/inventory/allinvent.php on line 6
+[12-Mar-2026 05:28:27 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/frozofun/admin/entities/inventory/packing_labels.php on line 103
